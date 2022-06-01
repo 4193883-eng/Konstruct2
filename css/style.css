@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+
+}
+.main {
+    height: 100vh;
+    background-image: url('../img/main-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    font-family: 'Bebas';
+    color: #48555B;
+}
+.main-logo {
+    width: 103px;
+    height: 23px;
+}
+.text-title{
+    color: white;
+    font-family: 'Bebas';
+}
+.scroll {
+    color: white;
+    font-family: 'Bebas';
+}
+.text-subtitle {
+    color: white;
+    font-family: 'Bebas';
+}
+.text-title {
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+.text-subtitle {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.scroll {
+    letter-spacing: 4px;
+}
+.menu {
+    height: 65px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #48555b;
+}
+.menu-logo {
+    width: 81px;
+    height: 18px;
+}
+.items {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    font-family: 'Bebas';
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #48555b;
+}
+.story-title {
+    font-family: 'Bebas';
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+.story-underline {
+    background-color: #00A4E5;
+    height: 3px;
+    width: 60px;
+    margin: 0 auto;
+    
+}
+.story{
+
+}
+.story-content {
+    display: flex;
+    width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    overflow: hidden;
+}
+.story-text {
+    width: 50%;
+    padding-right: 19px;
+}
+.story-text-title {
+    font-family: 'Bebas';
+    font-size: 36px;
+    font-weight: bold;
+}
+.story-text-p {
+    font-size: 18px;
+    font-family: 'Bebas';
+    font-weight: normal;
+}
+.story-img {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.story-block {
+    height: 222px;
+    width: 140px;
+    color: #fff;
+
+}
+.text-story{
+    padding-left: 14px;
+    font-family: 'Bebas';
+    font-size: 30px;
+    line-height: 15px;
+}
+.one{
+    background-image: url('../img/1.png');
+}
+.two{
+    background-image: url('../img/2.png');
+}
+.three{
+    background-image: url('../img/3.png');
+}
+.capability{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.flex-menu{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.uncenter{
+    margin: 20px 1px;
+}
+.heading{
+    font-family: 'Bebas';
+    font-size: 36px;
+}
+.para{
+    font-size: 16px;
+    width:300px;
+    font-family: 'Bebas';
+
+}
+.btn{
+    background-color: #00A4E5;
+    width: 300px;
+    height: 50px;
+    font-family: 'Bebas';
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.items-s{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    color: #48555B;
+}
+.item-s{
+    width: 300px;
+    border: 1px solid #E6E6E6;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.item-s h1{
+    font-family: 'Bebas';
+    color: #48555B;
+}
+.item-s p{
+    font-family: 'Bebas';
+    color: #48555B;
+}
+.item-h1{
+    font-family: 'Bebas';
+    color: #48555B;
+}
+.item-p{
+    font-family: 'Bebas';
+    color: #48555B;
+}
+.fadedbuild{
+    height: 50vh;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    font-family: 'Bebas';
+}
+@media (max-width:755px){
+    .items-s{
+        flex-direction: column;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .item-s{
+        margin: auto;
+        margin-bottom: 25px;
+    }
+}
